@@ -1,0 +1,1258 @@
+{
+  "version": "9.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "VpcSampleStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "VpcSampleStack.template.json"
+      },
+      "metadata": {
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpc9930BA8C",
+            "trace": [
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1215:21)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub1Subnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub1Subnet1Subnet607C6CD9",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1549:20)",
+              "new PublicSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1764:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1395:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub1Subnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub1Subnet1RouteTable28990B80",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1567:19)",
+              "new PublicSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1764:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1395:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub1Subnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub1Subnet1RouteTableAssociation5B0E3098",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1573:5)",
+              "new PublicSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1764:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1395:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub1Subnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub1Subnet1DefaultRouteD0A025F2",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1589:19)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1263:22",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1262:46)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub1Subnet1/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub1Subnet1EIP28F6791C",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1776:21)",
+              "NatGatewayProvider.configureNat (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:209:27)",
+              "Vpc.createNatGateways (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1347:14)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1269:14)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub1Subnet1/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub1Subnet1NATGateway09E392FE",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1774:17)",
+              "NatGatewayProvider.configureNat (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:209:27)",
+              "Vpc.createNatGateways (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1347:14)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1269:14)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub1Subnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub1Subnet2Subnet58CBDB89",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1549:20)",
+              "new PublicSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1764:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1395:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub1Subnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub1Subnet2RouteTable844C54CC",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1567:19)",
+              "new PublicSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1764:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1395:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub1Subnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub1Subnet2RouteTableAssociationAF2C315E",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1573:5)",
+              "new PublicSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1764:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1395:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub1Subnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub1Subnet2DefaultRouteB5027136",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1589:19)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1263:22",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1262:46)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub1Subnet2/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub1Subnet2EIP4853F9B8",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1776:21)",
+              "NatGatewayProvider.configureNat (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:209:27)",
+              "Vpc.createNatGateways (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1347:14)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1269:14)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub1Subnet2/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub1Subnet2NATGateway3190D7DF",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1774:17)",
+              "NatGatewayProvider.configureNat (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:209:27)",
+              "Vpc.createNatGateways (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1347:14)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1269:14)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub2Subnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub2Subnet1SubnetDC2EA782",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1549:20)",
+              "new PublicSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1764:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1395:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub2Subnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub2Subnet1RouteTable923795F1",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1567:19)",
+              "new PublicSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1764:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1395:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub2Subnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub2Subnet1RouteTableAssociation83361F13",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1573:5)",
+              "new PublicSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1764:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1395:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub2Subnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub2Subnet1DefaultRoute13708CEF",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1589:19)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1263:22",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1262:46)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub2Subnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub2Subnet2Subnet74D428B9",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1549:20)",
+              "new PublicSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1764:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1395:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub2Subnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub2Subnet2RouteTableAA57D50A",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1567:19)",
+              "new PublicSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1764:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1395:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub2Subnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub2Subnet2RouteTableAssociation594056B4",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1573:5)",
+              "new PublicSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1764:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1395:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/pub2Subnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcpub2Subnet2DefaultRouteA04FFF80",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1589:19)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1263:22",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1262:46)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv1Subnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv1Subnet1Subnet19368A3C",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1549:20)",
+              "new PrivateSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1802:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1400:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv1Subnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv1Subnet1RouteTable6C9ECCED",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1567:19)",
+              "new PrivateSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1802:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1400:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv1Subnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv1Subnet1RouteTableAssociationE768249A",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1573:5)",
+              "new PrivateSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1802:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1400:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv1Subnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv1Subnet1DefaultRoute2493B423",
+            "trace": [
+              "PrivateSubnet.addRoute (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1635:19)",
+              "NatGatewayProvider.configureSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:222:12)",
+              "NatGatewayProvider.configureNat (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:215:12)",
+              "Vpc.createNatGateways (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1347:14)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1269:14)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv1Subnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv1Subnet2SubnetB0B98818",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1549:20)",
+              "new PrivateSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1802:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1400:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv1Subnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv1Subnet2RouteTable9F4D0B2B",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1567:19)",
+              "new PrivateSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1802:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1400:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv1Subnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv1Subnet2RouteTableAssociation0BF52A50",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1573:5)",
+              "new PrivateSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1802:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1400:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv1Subnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv1Subnet2DefaultRoute8D3A2D1C",
+            "trace": [
+              "PrivateSubnet.addRoute (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1635:19)",
+              "NatGatewayProvider.configureSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:222:12)",
+              "NatGatewayProvider.configureNat (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:215:12)",
+              "Vpc.createNatGateways (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1347:14)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1269:14)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv2Subnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv2Subnet1Subnet3AC2283D",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1549:20)",
+              "new PrivateSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1802:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1400:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv2Subnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv2Subnet1RouteTable7D4F22E0",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1567:19)",
+              "new PrivateSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1802:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1400:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv2Subnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv2Subnet1RouteTableAssociationDA0BED13",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1573:5)",
+              "new PrivateSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1802:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1400:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv2Subnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv2Subnet1DefaultRoute5A1D9255",
+            "trace": [
+              "PrivateSubnet.addRoute (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1635:19)",
+              "NatGatewayProvider.configureSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:222:12)",
+              "NatGatewayProvider.configureNat (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:215:12)",
+              "Vpc.createNatGateways (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1347:14)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1269:14)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv2Subnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv2Subnet2SubnetDEB0E585",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1549:20)",
+              "new PrivateSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1802:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1400:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv2Subnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv2Subnet2RouteTableDDACEFCF",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1567:19)",
+              "new PrivateSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1802:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1400:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv2Subnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv2Subnet2RouteTableAssociationDC2A054B",
+            "trace": [
+              "new Subnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1573:5)",
+              "new PrivateSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1802:5)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1400:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1377:28)",
+              "Vpc.createSubnets (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1366:12)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1244:10)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/prv2Subnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcprv2Subnet2DefaultRouteBF043B97",
+            "trace": [
+              "PrivateSubnet.addRoute (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1635:19)",
+              "NatGatewayProvider.configureSubnet (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:222:12)",
+              "NatGatewayProvider.configureNat (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:215:12)",
+              "Vpc.createNatGateways (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1347:14)",
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1269:14)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/IGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcIGWF2460846",
+            "trace": [
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1251:19)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/dev-sandbox-ecstest-vpc/VPCGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devsandboxecstestvpcVPCGWD59AF2B2",
+            "trace": [
+              "new Vpc (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1257:19)",
+              "new VpcSampleStack (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/lib/vpc-sample-stack.ts:10:21)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/bin/vpc-sample.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/Users/pumpkinheader/.nodenv/versions/14.16.1/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/VpcSampleStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:22:24)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/private/synthesis.ts:201:5)",
+              "visit (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/private/synthesis.ts:197:5)",
+              "injectMetadataResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:467:12)",
+              "process.emit (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/source-map-support/source-map-support.js:495:21)"
+            ]
+          }
+        ],
+        "/VpcSampleStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:31:27)",
+              "/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/private/synthesis.ts:201:5)",
+              "visit (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/private/synthesis.ts:197:5)",
+              "injectMetadataResources (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.<anonymous> (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:467:12)",
+              "process.emit (/Users/pumpkinheader/ghq/github.com/pumpkinheader/aws-cdk-sample/vpc-sample/node_modules/source-map-support/source-map-support.js:495:21)"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
